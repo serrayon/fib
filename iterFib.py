@@ -1,3 +1,4 @@
+#example from thepythoncorner.com
 class fibonacci:
 
     def __init__(self, max=1000000):
@@ -31,3 +32,5 @@ if __name__ == '__main__':
     MY_FIBONACCI_NUMBERS = fibonacci()
     for fibonacci_number in MY_FIBONACCI_NUMBERS:
         print(fibonacci_number)
+
+     
