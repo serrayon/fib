@@ -10,7 +10,10 @@ class Fibonacci:
         # line 12 and 13 validate the value of n by using a conditional statement.
         # if n is not a positive integer number, then teh method raises a ValueError
         if not (isinstance(n, int) and n >= 0):
-            raise ValueError('Positive integer number expected, got "{n}"')
+            #print(f'Invalid Types of Arguments - n:{type(n)} int:{(int)}') dont quite get this 
+            raise TypeError(f'Incompatible types of arguments, must be postive integers you provided {n}')
+            raise ValueError(f'Positive integer number expected, got {n}')
+            
         #check for computed Fibonacci numbers
         if n < len(self.cache):
             return self.cache[n]
