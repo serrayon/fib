@@ -40,7 +40,7 @@ print([fibonacci_of(n) for n in range(15)])
     
     # line 4 creates the .cache instance attribute, which means that whenever you 
     #create a fibonacci object, there will be a cache for it. This attribute
-    #initially contains teh firs numbers in the fib sequence 
+    #initially contains the first numbers in the fib sequence 
         
     #line 15 defines a conditional statement to check for those Fibonacci numbers 
     # that were already calculated and are available in .cache. if the 
